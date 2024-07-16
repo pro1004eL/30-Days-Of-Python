@@ -160,8 +160,7 @@ print(num.isalpha())      # False
 # isdecimal(): Checks Decimal Characters
 
 challenge = 'thirty days of python'
-print(challenge.find('y'))  # 5
-print(challenge.find('th')) # 0
+print(challenge.isdecimal())  # 
 
 # isdigit(): Checks Digit Characters
 
